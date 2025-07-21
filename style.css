@@ -51,6 +51,11 @@ h1 {
     margin-top: 25px;
 }
 
+iframe {
+    margin-top: 20px;
+    border-radius: 17px;
+}
+
 @media (max-width: 850px) {
     .container {
         grid-template-areas:  
