@@ -47,23 +47,8 @@ audio {
     margin: 20px;
 }
 
-a {
-    background-color: blue;
-    cursor: pointer;
-    color: white;
-    padding: 7px 15px;
-    text-decoration: none;
-    border-radius: 8px;
-}
-
-a:hover {
-    background-color: yellow;
-    color: black;
-}
-
 h1 {
     margin-top: 25px;
-
 }
 
 @media (max-width: 850px) {
