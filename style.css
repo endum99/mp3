@@ -5,62 +5,30 @@
 
 body {
     background-color: black;
-    padding: 30px;
-    font-size: 16px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+img {
+    width: 200px;
+    border-radius: 10px 50px 10px 50px;
+    margin-bottom: 20px;
 }
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas:  
-    "mp3 mp3"
-    "pop malaysia"
-    "pop malaysia";
-    gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
+    gap : 30px;
     text-align: center;
 }
 
-img {
-    border-radius: 0 60px 0 60px;
-}
-
-.mp3 {
-    grid-area: mp3;
-    margin-top: 15px;
-}
-
-.pop {
-    grid-area: pop;
-}
-
-.malaysia {
-    grid-area: malaysia;
-}
-
-.container > * {
-    color: whitesmoke;
-    letter-spacing: 2px;
-}
-
-audio {
-    margin: 20px;
-}
-
-h1 {
-    margin-top: 25px;
-}
-
 iframe {
-    margin-top: 20px;
-    border-radius: 17px;
-}
-
-@media (max-width: 850px) {
-    .container {
-        grid-template-areas:  
-        "mp3 mp3"
-        "pop pop"
-        "malaysia malaysia";
-    }
+    border-radius: 10px;
 }
